@@ -1,4 +1,51 @@
 2025-07-22 12:27:53,795 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+root@630c25988983:/# /usr/bin/supervisord
+/usr/lib/python3/dist-packages/supervisor/options.py:474: UserWarning: Supervisord is running as root and it is searching for its configuration file in default locations (including its current working directory); you probably want to specify a "-c" argument specifying an absolute path to a configuration file for improved security.
+  self.warnings.warn(
+2025-07-22 12:45:54,063 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-07-22 12:45:54,063 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2025-07-22 12:45:54,068 INFO RPC interface 'supervisor' initialized
+2025-07-22 12:45:54,068 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-07-22 12:45:54,068 INFO supervisord started with pid 8
+2025-07-22 12:45:55,076 INFO spawned: 'zebra' with pid 9
+2025-07-22 12:45:55,081 INFO spawned: 'bgpd' with pid 10
+2025-07-22 12:45:55,085 INFO spawned: 'ospfd' with pid 11
+2025-07-22 12:45:55,085 INFO spawned: 'isisd' with pid 12
+2025-07-22 12:45:55,092 INFO exited: zebra (exit status 1; not expected)
+2025-07-22 12:45:55,092 INFO exited: bgpd (exit status 1; not expected)
+2025-07-22 12:45:55,093 INFO exited: ospfd (exit status 1; not expected)
+2025-07-22 12:45:55,093 INFO exited: isisd (exit status 1; not expected)
+2025-07-22 12:45:56,101 INFO spawned: 'zebra' with pid 13
+2025-07-22 12:45:56,104 INFO spawned: 'bgpd' with pid 14
+2025-07-22 12:45:56,105 INFO spawned: 'ospfd' with pid 15
+2025-07-22 12:45:56,108 INFO spawned: 'isisd' with pid 16
+2025-07-22 12:45:56,108 INFO exited: zebra (exit status 1; not expected)
+2025-07-22 12:45:56,108 INFO exited: bgpd (exit status 1; not expected)
+2025-07-22 12:45:56,113 INFO exited: ospfd (exit status 1; not expected)
+2025-07-22 12:45:56,114 INFO exited: isisd (exit status 1; not expected)
+2025-07-22 12:45:58,122 INFO spawned: 'zebra' with pid 17
+2025-07-22 12:45:58,123 INFO spawned: 'bgpd' with pid 18
+2025-07-22 12:45:58,124 INFO spawned: 'ospfd' with pid 19
+2025-07-22 12:45:58,126 INFO spawned: 'isisd' with pid 20
+2025-07-22 12:45:58,127 INFO exited: zebra (exit status 1; not expected)
+2025-07-22 12:45:58,127 INFO exited: bgpd (exit status 1; not expected)
+2025-07-22 12:45:58,131 INFO exited: ospfd (exit status 1; not expected)
+2025-07-22 12:45:58,131 INFO exited: isisd (exit status 1; not expected)
+2025-07-22 12:46:01,245 INFO spawned: 'zebra' with pid 21
+2025-07-22 12:46:01,248 INFO spawned: 'bgpd' with pid 22
+2025-07-22 12:46:01,249 INFO spawned: 'ospfd' with pid 23
+2025-07-22 12:46:01,252 INFO spawned: 'isisd' with pid 24
+2025-07-22 12:46:01,252 INFO exited: zebra (exit status 1; not expected)
+2025-07-22 12:46:01,252 INFO exited: bgpd (exit status 1; not expected)
+2025-07-22 12:46:01,252 INFO exited: ospfd (exit status 1; not expected)
+2025-07-22 12:46:01,256 INFO gave up: zebra entered FATAL state, too many start retries too quickly
+2025-07-22 12:46:01,256 INFO gave up: bgpd entered FATAL state, too many start retries too quickly
+2025-07-22 12:46:01,256 INFO gave up: ospfd entered FATAL state, too many start retries too quickly
+2025-07-22 12:46:01,256 INFO exited: isisd (exit status 1; not expected)
+2025-07-22 12:46:01,257 INFO gave up: isisd entered FATAL state, too many start retries too quickly
+
+
+
 2025-07-22 12:27:53,795 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
 2025-07-22 12:27:53,800 INFO RPC interface 'supervisor' initialized
 2025-07-22 12:27:53,800 CRIT Server 'unix_http_server' running without any HTTP authentication checking
