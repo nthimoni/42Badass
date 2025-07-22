@@ -8,7 +8,5 @@ RUN sed -i \
     /etc/frr/daemons
 
 COPY frr.conf /etc/frr/frr.conf
-    
-CMD ["sh", "-c", "chown -R frr:frr /etc/frr && \
-    exec /usr/lib/frr/frrinit.sh start && \
-    tail -F /var/log/frr/*.log"]
+
+CMD ["/usr/lib/frr/frrinit.sh", "start-foreground"]
