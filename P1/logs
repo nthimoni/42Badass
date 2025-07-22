@@ -86,3 +86,10 @@ root@630c25988983:/# /usr/bin/supervisord
 2025-07-22 12:28:01,246 INFO gave up: ospfd entered FATAL state, too many start retries too quickly
 2025-07-22 12:28:01,246 INFO exited: isisd (exit status 1; not expected)
 2025-07-22 12:28:01,246 INFO gave up: isisd entered FATAL state, too many start retries too quickly
+
+
+
+root@e1ba908dc859:/# /usr/lib/frr/zebra 
+privs_init: initial cap_set_proc failed: Operation not permitted
+Wanted caps: cap_net_admin,cap_net_raw,cap_sys_admin=p
+Have   caps: cap_chown,cap_dac_override,cap_fowner,cap_fsetid,cap_kill,cap_setgid,cap_setuid,cap_setpcap,cap_net_bind_service,cap_net_raw,cap_sys_chroot,cap_mknod,cap_audit_write,cap_setfcap=p
