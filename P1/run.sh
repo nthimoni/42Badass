@@ -16,9 +16,9 @@ echo "Building host image..."
 docker build -t $HOST_IMAGE ./host || { echo "Host build failed"; exit 1; }
 
 echo "Running router container..."
-docker run -d --name $ROUTER_CONTAINER $ROUTER_IMAGE || { echo "Failed to start router container"; exit 1; }
+docker run --privileged -d --name $ROUTER_CONTAINER $ROUTER_IMAGE || { echo "Failed to start router container"; exit 1; }
 
 echo "Running host container..."
-docker run -d --name $HOST_CONTAINER $HOST_IMAGE || { echo "Failed to start host container"; exit 1; }
+docker run --privileged -d --name $HOST_CONTAINER $HOST_IMAGE || { echo "Failed to start host container"; exit 1; }
 
 echo "Both containers are up and running."
