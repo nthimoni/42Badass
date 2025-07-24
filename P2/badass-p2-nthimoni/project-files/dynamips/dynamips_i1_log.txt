@@ -1,0 +1,22 @@
+Jul 24 18:13:22.718 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jul 24 18:13:22.718 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 43533.
+Jul 24 18:13:22.758 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 24 18:13:22.759 HYPERVISOR: exec_cmd: hypervisor working_dir /home/nthimoni/Documents/BGP/P2/badass-p2-nthimoni/project-files/dynamips 
+Jul 24 18:13:22.759 GENERAL: working_dir=/home/nthimoni/Documents/BGP/P2/badass-p2-nthimoni/project-files/dynamips
+Jul 24 18:13:22.759 HYPERVISOR: exec_cmd: ethsw create Switch_nthimoni 
+Jul 24 18:13:22.998 HYPERVISOR: exec_cmd: nio create_udp udp-06a366e8-010f-4d8c-bfea-0817881968fb 10014 127.0.0.1 10015 
+Jul 24 18:13:22.998 HYPERVISOR: exec_cmd: ethsw add_nio Switch_nthimoni udp-06a366e8-010f-4d8c-bfea-0817881968fb 
+Jul 24 18:13:23.002 HYPERVISOR: exec_cmd: ethsw set_access_port Switch_nthimoni udp-06a366e8-010f-4d8c-bfea-0817881968fb 1 
+Jul 24 18:13:23.020 HYPERVISOR: exec_cmd: nio create_udp udp-2aa4b944-85ff-4885-a461-592620eb67cd 10016 127.0.0.1 10017 
+Jul 24 18:13:23.020 HYPERVISOR: exec_cmd: ethsw add_nio Switch_nthimoni udp-2aa4b944-85ff-4885-a461-592620eb67cd 
+Jul 24 18:13:23.062 HYPERVISOR: exec_cmd: ethsw set_access_port Switch_nthimoni udp-2aa4b944-85ff-4885-a461-592620eb67cd 1 
+Jul 24 18:15:45.620 HYPERVISOR: exec_cmd: ethsw remove_nio Switch_nthimoni udp-06a366e8-010f-4d8c-bfea-0817881968fb 
+Jul 24 18:15:45.639 HYPERVISOR: exec_cmd: nio delete udp-06a366e8-010f-4d8c-bfea-0817881968fb 
+Jul 24 18:15:45.669 HYPERVISOR: exec_cmd: ethsw remove_nio Switch_nthimoni udp-2aa4b944-85ff-4885-a461-592620eb67cd 
+Jul 24 18:15:45.682 HYPERVISOR: exec_cmd: nio delete udp-2aa4b944-85ff-4885-a461-592620eb67cd 
+Jul 24 18:16:00.179 HYPERVISOR: exec_cmd: nio create_udp udp-13f2390f-099d-4055-8c1e-bf975e87ad39 10000 127.0.0.1 10001 
+Jul 24 18:16:00.180 HYPERVISOR: exec_cmd: ethsw add_nio Switch_nthimoni udp-13f2390f-099d-4055-8c1e-bf975e87ad39 
+Jul 24 18:16:00.192 HYPERVISOR: exec_cmd: ethsw set_access_port Switch_nthimoni udp-13f2390f-099d-4055-8c1e-bf975e87ad39 1 
+Jul 24 18:16:03.540 HYPERVISOR: exec_cmd: nio create_udp udp-d91e0672-9dfd-4fd3-9bc2-425c9dcf948d 10002 127.0.0.1 10003 
+Jul 24 18:16:03.540 HYPERVISOR: exec_cmd: ethsw add_nio Switch_nthimoni udp-d91e0672-9dfd-4fd3-9bc2-425c9dcf948d 
+Jul 24 18:16:03.558 HYPERVISOR: exec_cmd: ethsw set_access_port Switch_nthimoni udp-d91e0672-9dfd-4fd3-9bc2-425c9dcf948d 1 

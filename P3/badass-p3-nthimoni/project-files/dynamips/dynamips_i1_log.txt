@@ -1,0 +1,10 @@
+Jul 24 21:52:26.692 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Jul 24 21:52:26.692 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54675.
+Jul 24 21:52:26.701 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 24 21:52:26.701 HYPERVISOR: exec_cmd: hypervisor working_dir /home/nthimoni/Documents/BGP/P3/badass-p3-nthimoni/project-files/dynamips 
+Jul 24 21:52:26.701 GENERAL: working_dir=/home/nthimoni/Documents/BGP/P3/badass-p3-nthimoni/project-files/dynamips
+Jul 24 21:52:26.701 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Jul 24 21:52:52.167 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Jul 24 21:52:52.167 HYPERVISOR: exec_cmd: hypervisor stop 
+Jul 24 21:52:52.276 HYPERVISOR: Stopped.
+Jul 24 21:52:52.276 GENERAL: reset done.
