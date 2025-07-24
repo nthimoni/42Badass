@@ -20,39 +20,7 @@
         "links": [
             {
                 "filters": {},
-                "link_id": "40a75521-6b66-42cd-9c97-4231a3b2dd2e",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "eth1",
-                            "x": 42,
-                            "y": -9
-                        },
-                        "node_id": "5a33251a-f538-4b86-a9c3-650eaa3c0285",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "eth1",
-                            "x": 15,
-                            "y": 71
-                        },
-                        "node_id": "b8e3b1f3-32a4-46a5-88b3-6575e780b52f",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "8e6f0bc4-f0a0-45b5-ad49-91d87f2ae8cb",
+                "link_id": "d41374e9-690e-42ab-8211-8fe271cfa1c1",
                 "link_style": {},
                 "nodes": [
                     {
@@ -62,7 +30,7 @@
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e0",
                             "x": 1,
-                            "y": 37
+                            "y": 36
                         },
                         "node_id": "502d1c4f-fc73-44e2-886b-3d1b89db69e7",
                         "port_number": 0
@@ -74,9 +42,9 @@
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
                             "x": 59,
-                            "y": 11
+                            "y": 12
                         },
-                        "node_id": "b8e3b1f3-32a4-46a5-88b3-6575e780b52f",
+                        "node_id": "bf8f719d-c0eb-4c0b-9398-1d9fce152982",
                         "port_number": 0
                     }
                 ],
@@ -84,7 +52,7 @@
             },
             {
                 "filters": {},
-                "link_id": "6a2a1d57-e34f-4348-9bb5-59899a6d6370",
+                "link_id": "d982ed5a-0f4d-406e-9608-72e31b7ea93b",
                 "link_style": {},
                 "nodes": [
                     {
@@ -93,8 +61,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "e1",
-                            "x": 66,
-                            "y": 41
+                            "x": 70,
+                            "y": 34
                         },
                         "node_id": "502d1c4f-fc73-44e2-886b-3d1b89db69e7",
                         "port_number": 1
@@ -105,10 +73,10 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": -5,
-                            "y": 7
+                            "x": -9,
+                            "y": 14
                         },
-                        "node_id": "90671fb5-ed5d-4dc9-b0ab-521f3ba5f625",
+                        "node_id": "d21c2a56-fab1-4fd2-9cbf-f531a30c364d",
                         "port_number": 0
                     }
                 ],
@@ -116,7 +84,7 @@
             },
             {
                 "filters": {},
-                "link_id": "57fa8e3f-fa66-47e7-b1bd-6331d593d842",
+                "link_id": "44e01efd-6c15-476d-b7c6-67319180b03d",
                 "link_style": {},
                 "nodes": [
                     {
@@ -125,10 +93,10 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth1",
-                            "x": 34,
-                            "y": 71
+                            "x": 27,
+                            "y": 72
                         },
-                        "node_id": "90671fb5-ed5d-4dc9-b0ab-521f3ba5f625",
+                        "node_id": "bf8f719d-c0eb-4c0b-9398-1d9fce152982",
                         "port_number": 0
                     },
                     {
@@ -137,10 +105,42 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth1",
-                            "x": 23,
+                            "x": 30,
+                            "y": -10
+                        },
+                        "node_id": "7ae77656-cc55-40c7-89f1-733d33ddf3e7",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "e1893884-ac3a-454b-8ba4-e1f865fd896c",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth1",
+                            "x": 33,
+                            "y": 72
+                        },
+                        "node_id": "d21c2a56-fab1-4fd2-9cbf-f531a30c364d",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth1",
+                            "x": 24,
                             "y": -9
                         },
-                        "node_id": "4f358be2-851f-45c0-a8f9-d711515dfd20",
+                        "node_id": "e9207198-6311-43e7-8896-1d47d9dfee70",
                         "port_number": 0
                     }
                 ],
@@ -150,7 +150,7 @@
         "nodes": [
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5014,
                 "console_auto_start": false,
                 "console_type": "none",
                 "custom_adapters": [],
@@ -230,7 +230,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5001,
+                "console": 5000,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -245,35 +245,35 @@
                 },
                 "locked": false,
                 "name": "router_nthimoni-1",
-                "node_id": "b8e3b1f3-32a4-46a5-88b3-6575e780b52f",
+                "node_id": "bf8f719d-c0eb-4c0b-9398-1d9fce152982",
                 "node_type": "docker",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
                     "adapters": 8,
-                    "aux": 5002,
+                    "aux": 5001,
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "44fe293e4707f1cde7907af3fa93307114dd6eb507809b7a26792c7384096b17",
+                    "container_id": "0bf8f34db35afb17c367a100ac8cca12836dcfd54bc9b87bf3a1e305a6d813ec",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
                     "image": "router_image:latest",
-                    "mac_address": "02:42:e3:b1:f3:00",
+                    "mac_address": "02:42:8f:71:9d:00",
                     "start_command": null,
                     "usage": ""
                 },
                 "symbol": ":/symbols/classic/route_switch_processor.svg",
                 "template_id": "bb21ad87-e20d-468a-9347-d6bd8b7c7845",
                 "width": 51,
-                "x": -158,
-                "y": -77,
+                "x": -146,
+                "y": -108,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5003,
+                "console": 5002,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -288,35 +288,35 @@
                 },
                 "locked": false,
                 "name": "router_nthimoni-2",
-                "node_id": "90671fb5-ed5d-4dc9-b0ab-521f3ba5f625",
+                "node_id": "d21c2a56-fab1-4fd2-9cbf-f531a30c364d",
                 "node_type": "docker",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
                     "adapters": 8,
-                    "aux": 5004,
+                    "aux": 5003,
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "31d3997851eae0719f43a2a3191593a3574d1aa823c75d6f727e12fdecc96004",
+                    "container_id": "666fbcbee54284b37abc0d29c27dfd5f64d7cb635b9e16e858cd2683db727389",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
                     "image": "router_image:latest",
-                    "mac_address": "02:42:67:1f:b5:00",
+                    "mac_address": "02:42:1c:2a:56:00",
                     "start_command": null,
                     "usage": ""
                 },
                 "symbol": ":/symbols/classic/route_switch_processor.svg",
                 "template_id": "bb21ad87-e20d-468a-9347-d6bd8b7c7845",
                 "width": 51,
-                "x": 100,
-                "y": -84,
+                "x": 120,
+                "y": -104,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5005,
+                "console": 5004,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -331,35 +331,35 @@
                 },
                 "locked": false,
                 "name": "host_nthimoni-1",
-                "node_id": "5a33251a-f538-4b86-a9c3-650eaa3c0285",
+                "node_id": "7ae77656-cc55-40c7-89f1-733d33ddf3e7",
                 "node_type": "docker",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
                     "adapters": 4,
-                    "aux": 5006,
+                    "aux": 5005,
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "c63cc6a4d8ea0a8daabda4467cf3369029fc87d740f163f9c4f2bc2e4c017977",
+                    "container_id": "7584940cb289ddff0be474538466043d1cfee4fea40ac93f66ddca9fca25a6a0",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
                     "image": "host_image:latest",
-                    "mac_address": "02:42:33:25:1a:00",
+                    "mac_address": "02:42:e7:76:56:00",
                     "start_command": null,
                     "usage": ""
                 },
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "d3b61a6e-2c9f-4299-9fe7-a6d611dbf570",
                 "width": 65,
-                "x": -206,
-                "y": 94,
+                "x": -146,
+                "y": 69,
                 "z": 1
             },
             {
                 "compute_id": "local",
-                "console": 5007,
+                "console": 5006,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -374,30 +374,30 @@
                 },
                 "locked": false,
                 "name": "host_nthimoni-2",
-                "node_id": "4f358be2-851f-45c0-a8f9-d711515dfd20",
+                "node_id": "e9207198-6311-43e7-8896-1d47d9dfee70",
                 "node_type": "docker",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
                     "adapters": 4,
-                    "aux": 5008,
+                    "aux": 5007,
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "08471682a1f2187b68815cd265437f513466ca9fa5d03be713c9f92bc60fa776",
+                    "container_id": "4db622069aff91ebaa7bc70478cc19aca2698776acdf26421e31d44896f9bca0",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [],
                     "image": "host_image:latest",
-                    "mac_address": "02:42:35:8b:e2:00",
+                    "mac_address": "02:42:20:71:98:00",
                     "start_command": null,
                     "usage": ""
                 },
                 "symbol": ":/symbols/docker_guest.svg",
                 "template_id": "d3b61a6e-2c9f-4299-9fe7-a6d611dbf570",
                 "width": 65,
-                "x": 135,
-                "y": 97,
+                "x": 153,
+                "y": 84,
                 "z": 1
             }
         ]
